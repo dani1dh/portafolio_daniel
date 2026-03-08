@@ -1,0 +1,57 @@
+---
+import Image from "astro/components/Image.astro";
+import titulo from "../img/Imagen_entrega_titulo.jpeg";
+import "@fontsource/roboto/900.css";
+import "@fontsource/roboto/600.css";
+---
+
+<section class="mx-5 mb-10">
+  <h2
+    class="text-center text-2xl text-azul font-black mb-6 md:text-4xl md:mb-12"
+  >
+    Acerca de mí
+  </h2>
+  <article
+    class="xl:flex xl:items-center xl:justify-center 2xl:mx-50 xl:gap-12 xl:mx-8"
+  >
+    <Image
+      src={titulo}
+      alt="Imagen de entrega de reconocimiento"
+      class="w-full xl:w-1/2 h-auto mx-auto rounded-2xl mb-6 shadow-2xl object-center md:w-9/12"
+    />
+    <div class="">
+      <p class="text-center text-lg md:text-2xl md:mt-12">
+        Soy desarrollador con experiencia freelance, acostumbrado a trabajar
+        bajo presión y a gestionar proyectos de forma autónoma. Me caracterizo
+        por ser responsable, constante, sociable y organizado, con facilidad
+        para adaptarme a nuevos entornos y tecnologías.
+      </p>
+      <div class="flex items-center justify-around mt-5 text-center">
+        <div>
+          <span class="text-xl md:text-3xl font-black text-azul">02+</span>
+          <p class="text-sm md:text-xl">Años de<br /> experiencia</p>
+        </div>
+        <div>
+          <span class="text-xl md:text-3xl font-black text-azul">5+</span>
+          <p class="text-sm md:text-xl">Proyectos<br /> completados</p>
+        </div>
+        <div>
+          <span class="text-xl md:text-3xl font-black text-azul">05+</span>
+          <p class="text-sm md:text-xl">Certificados<br /> obtenidos</p>
+        </div>
+      </div>
+      <button
+        class="bg-azul mt-6 md:mt-8 md:px-8 xl:py-4 px-6 py-3 rounded-2xl text-white font-semibold tracking-wider md:text-xl text-lg cursor-pointer hover:-translate-y-2 ease-in-out duration-300 mx-auto block"
+        >Ver CV</button
+      >
+    </div>
+  </article>
+</section>
+<style>
+  h2,
+  p,
+  button,
+  span {
+    font-family: "Roboto Variable", sans-serif;
+  }
+</style>
