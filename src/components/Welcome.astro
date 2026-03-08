@@ -11,7 +11,7 @@ import FacebookIcon from "./FacebookIcon.astro";
 ---
 
 <section
-  class="flex flex-wrap xl:flex-nowrap justify-center xl:gap-x-30 items-center mx-5 xl:mx-10 mb-10"
+  class="flex flex-wrap xl:flex-nowrap justify-center xl:gap-x-30 items-center mx-5 xl:mx-10 mb-10 xl:mb-0"
 >
   <article class="flex xl:flex-col md:gap-12 gap-10 order-3 xl:order-1">
     <a href="https://github.com/dani1dh" target="_blank">
@@ -38,7 +38,9 @@ import FacebookIcon from "./FacebookIcon.astro";
       />
     </a>
   </article>
-  <article class="xl:w-1/4 h-auto xl:pb-40 order-2 my-10">
+  <article
+    class="xl:w-1/4 h-auto xl:pb-40 order-2 my-10 md:text-center xl:text-start"
+  >
     <h1 class="tracking-wider font-black md:text-5xl text-4xl xl:pt-30">
       Hola, soy Daniel Hernandez
     </h1>
@@ -49,7 +51,7 @@ import FacebookIcon from "./FacebookIcon.astro";
       <span class="block">Desarrollador Web / Desarrollador Backend</span>
     </p>
     <button
-      class="bg-azul mt-2 px-4 py-2 rounded-2xl text-white font-semibold tracking-wider text-xl cursor-pointer hover:-translate-y-2 ease-in-out duration-300"
+      class="bg-azul mt-2 md:px-8 md:py-4 px-6 py-3 rounded-2xl text-white font-semibold tracking-wider md:text-xl text-lg cursor-pointer hover:-translate-y-2 ease-in-out duration-300"
     >
       Contacto
     </button>
@@ -58,7 +60,7 @@ import FacebookIcon from "./FacebookIcon.astro";
     <Image
       src={astronaut}
       alt="Imagen de perfil"
-      class="h-auto xl:w-xl w-full rounded-t-4xl rounded-b-sm mask-b-from-85% mask-b-from-black"
+      class="h-auto xl:w-xl md:w-3/5 md:block md:mx-auto w-full rounded-t-4xl rounded-b-sm mask-b-from-85% mask-b-from-black"
     />
   </div>
 </section>
