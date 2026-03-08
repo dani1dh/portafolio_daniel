@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-tb: 810px;
+  --color-azul: #0085c4;
+  --color-fondo: #f1f8ff;
+}
