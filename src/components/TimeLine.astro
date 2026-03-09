@@ -1,0 +1,93 @@
+---
+import "@fontsource/roboto/600.css";
+import TimeLineComponent from "./TimeLineComponent.astro";
+---
+
+<section class="flex items-start xl:items-center justify-center flex-col mx-5">
+  <h3
+    class="text-center text-2xl text-azul font-black mb-4 md:text-4xl md:my-8 xl:mt-16"
+  >
+    Experiencia
+  </h3>
+  <h4
+    class="text-start text-xl md:text-3xl font-black text-slate-500 mb-6 md:mb-12"
+  >
+    Academica y Reconocimientos
+  </h4>
+  <ol class="relative border-s-3 border-slate-400/50">
+    <TimeLineComponent
+      date="Junio - 2025"
+      title="Reconocimiento por buen desempeño académico"
+      description="Margarita Gonzales Saravia, Gobernadora Constitucional del Estado de Morelos"
+    />
+    <TimeLineComponent
+      date="2023 - 2025"
+      title="Ingeniería en Entornos Virtuales y Negocios Digitales"
+      description="Universidad Tecnológica del Sur del Estado de Morelos"
+    />
+    <TimeLineComponent
+      date="Agosto - 2024"
+      title='Reconocimiento "6ta. Jornada de Tecnologias de la Información"'
+      description="Lic.Osiris Pasos Herrera, Rector de la UTSEM"
+    />
+    <TimeLineComponent
+      date="Julio - 2022"
+      title='Constancia "4ta. Jornada de Tecnologias de la Información: Desarrollo de Software 2022"'
+      description="Ing.Roberto A. Rabadan Celis, Director Academico de la UTSEM"
+    />
+    <TimeLineComponent
+      date="2021 - 2023"
+      title="Técnico Superior Universitario en Tecnologías de la Información"
+      description="Universidad Tecnológica del Sur del Estado de Morelos"
+    />
+    <TimeLineComponent
+      date="Agosto - 2022"
+      title='Constancia "Fundamentos de Programación Orientada a Objetos en Java"'
+      description=" Erick F. Villanueva Ruiz, Presidente de la Mesa Directiva SAGFI (Universidad Nacional Autónoma de México)"
+    />
+    <TimeLineComponent
+      date="Junio - 2021"
+      title='Diploma "El internet de las Cosas y su Proramabilidad con Python. Datos Masivos y Ciberseguridad"'
+      description="Dr.Jose Mario Ordoñez, Secretario Academico de la UAEM"
+    />
+    <TimeLineComponent
+      date="2019 - 2021"
+      title="Técnico en Informática"
+      description="Universidad Autónoma del Estado de México"
+    />
+  </ol>
+  <h4
+    class="text-start text-xl md:text-3xl font-black text-slate-500 my-8 md:mb-12"
+  >
+    Laboral y Freelance
+  </h4>
+  <ol class="relative border-s-3 border-slate-400/50 xl:mr-110">
+    <TimeLineComponent
+      date="Octubre 2025 - Febrero 2026"
+      title="Asesor de ventas en area de Informatica"
+      description="Coppel"
+    />
+    <TimeLineComponent
+      date="Abril 2024 - Octubre 2025"
+      title="Desarrollador de Software / Desarrollador Web - Freelance"
+      description="Nexus Innovatix"
+    />
+    <TimeLineComponent
+      date="Enero - Mayo 2025"
+      title="Desarrollador Jr - Practicas Profesionales"
+      description="ADIEM"
+    />
+    <TimeLineComponent
+      date="Abril - Agosto 2023"
+      title="Desarrollador Jr - Practicas Profesionales"
+      description="Softiux"
+    />
+  </ol>
+</section>
+
+<style>
+  h3,
+  p {
+    font-family: "Roboto Variable", sans-serif;
+  }
+</style>
