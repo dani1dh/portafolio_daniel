@@ -1,0 +1,99 @@
+---
+import "@fontsource/roboto/900.css";
+import Html from "./skills_icons/Html.astro";
+import SkillComponent from "./SkillComponent.astro";
+import Css from "./skills_icons/Css.astro";
+import JavaScript from "./skills_icons/JavaScript.astro";
+import TypeScript from "./skills_icons/TypeScript.astro";
+import Tailwindcss from "./skills_icons/Tailwindcss.astro";
+import React from "./skills_icons/React.astro";
+import Astros from "./skills_icons/Astros.astro";
+import Bootstrap from "./skills_icons/Bootstrap.astro";
+import Git from "./skills_icons/Git.astro";
+import Java from "./skills_icons/Java.astro";
+import Php from "./skills_icons/Php.astro";
+import Laravel from "./skills_icons/Laravel.astro";
+import SpringBoot from "./skills_icons/SpringBoot.astro";
+import Mysql from "./skills_icons/Mysql.astro";
+---
+
+<section class="mx-5">
+  <h3
+    class="text-center text-2xl text-azul font-black mb-4 md:text-4xl md:my-8 xl:mt-16"
+  >
+    Habilidades
+  </h3>
+
+  <article class="mb-6 md:mb-10 xl:w-3/4 xl:mx-auto">
+    <h4
+      class="text-center text-xl md:text-3xl font-black text-slate-500 mb-6 md:mb-12"
+    >
+      Frontend y Control de Versiones
+    </h4>
+    <div
+      class="flex flex-wrap items-end justify-around md:gap-y-10 md:gap-x-0 gap-7"
+    >
+      <SkillComponent title="HTML">
+        <Html />
+      </SkillComponent>
+      <SkillComponent title="CSS">
+        <Css />
+      </SkillComponent>
+      <SkillComponent title="JavaScript">
+        <JavaScript />
+      </SkillComponent>
+      <SkillComponent title="TypeScript">
+        <TypeScript />
+      </SkillComponent>
+
+      <SkillComponent title="React">
+        <React />
+      </SkillComponent>
+      <SkillComponent title="Astro">
+        <Astros />
+      </SkillComponent>
+      <SkillComponent title="Tailwind CSS">
+        <Tailwindcss />
+      </SkillComponent>
+      <SkillComponent title="Bootstrap">
+        <Bootstrap />
+      </SkillComponent>
+      <SkillComponent title="Git">
+        <Git />
+      </SkillComponent>
+    </div>
+  </article>
+  <article class="mb-6 xl:w-3/4 xl:mx-auto">
+    <h4
+      class="text-center text-xl md:text-3xl font-black text-slate-500 mb-6 md:mb-10"
+    >
+      Backend y Base de Datos
+    </h4>
+    <div
+      class="flex flex-wrap items-end justify-around md:gap-y-10 md:gap-x-0 gap-7"
+    >
+      <SkillComponent title="Java">
+        <Java />
+      </SkillComponent>
+      <SkillComponent title="Spring">
+        <SpringBoot />
+      </SkillComponent>
+
+      <SkillComponent title="MySQL">
+        <Mysql />
+      </SkillComponent>
+      <SkillComponent title="Php">
+        <Php />
+      </SkillComponent>
+      <SkillComponent title="Laravel">
+        <Laravel />
+      </SkillComponent>
+    </div>
+  </article>
+</section>
+<style>
+  h3,
+  h4 p {
+    font-family: "Roboto Variable", sans-serif;
+  }
+</style>
