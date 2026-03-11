@@ -19,18 +19,6 @@ Este portafolio fue construido utilizando tecnologías modernas enfocadas en ren
 - React
 - Astro
 - TailwindCSS
-- Bootstrap
-
-## Backend
-
-- PHP
-- Java
-- Spring Boot
-- Laravel
-
-## Base de datos
-
-- MySQL
 
 ## Herramientas
 
@@ -54,6 +42,7 @@ Este portafolio fue construido utilizando tecnologías modernas enfocadas en ren
 
 # 📂 Estructura del proyecto
 
+```
 /
 ├── public/
 │ └── assets
@@ -66,6 +55,7 @@ Este portafolio fue construido utilizando tecnologías modernas enfocadas en ren
 │ └── assets/ # Imágenes y recursos
 │
 └── package.json
+```
 
 ---
 
@@ -121,14 +111,14 @@ Incluye:
 
 Muestra algunos de los proyectos desarrollados, entre ellos:
 
-- **NexusPay** – Sistema web para gestión de pagos
-- **NexusBuy** – Plataforma de control de compras
-- **FitPlay** – Plataforma web de servicios fitness
+- **NexusPay** – Sistema web para gestión de pagos de colegiaturas
+- **NexusPay && Books** – Sistema web para gestión de pagos de colegiaturas y compra de libros
+- **FitPlay** – Sistema web para gestión de pagos de membresias en Gym
 - **Raindsa** – Sitio web empresarial
-- **Certificaciones CMI**
-- **Nexus Innovatix**
-- **ADIEM**
-- **Softlux**
+- **Certificaciones CMI** - Sitio web empresarial de certificaciones de ingles
+- **Nexus Innovatix** - Sitio web empresarial para captacion de clientes
+- **ADIEM** - Sitio web empresarial donde desarrolle un apartado en practicas profesionales
+- **Softlux** - App mobile donde desarrolle mis practicas profesionales
 
 ---
 
@@ -139,7 +129,7 @@ Este portafolio fue creado para:
 - Mostrar proyectos reales desarrollados
 - Presentar habilidades técnicas
 - Servir como carta de presentación profesional
-- Facilitar el contacto con posibles clientes o empresas
+- Facilitar el contacto con reclutadores
 
 ---
 
