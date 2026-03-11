@@ -60,7 +60,7 @@ export default function Header() {
           >
             <li className="mt-4 tb:mt-0">
               <a
-                href="/"
+                href="#Inicio"
                 className="block py-2 px-3 text-primary rounded hover:bg-gray-100 tb:hover:bg-transparent tb:border-0 tb:hover:text-secondary tb:p-0"
                 aria-current="page"
               >
@@ -70,7 +70,7 @@ export default function Header() {
 
             <li>
               <a
-                href="/aptisinfo/"
+                href="#About"
                 className="block py-2 px-3 text-primary rounded hover:bg-gray-100 tb:hover:bg-transparent tb:border-0 tb:hover:text-secondary tb:p-0"
               >
                 Acerca de mí
@@ -78,7 +78,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="/fetinfo/"
+                href="#Skills"
                 className="block py-2 px-3 text-primary rounded hover:bg-gray-100 tb:hover:bg-transparent tb:border-0 tb:hover:text-secondary tb:p-0"
               >
                 Habilidades
@@ -86,7 +86,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="/contact/"
+                href="#Experience"
                 className="block py-2 px-3 text-primary rounded hover:bg-gray-100 tb:hover:bg-transparent tb:border-0 tb:hover:text-secondary tb:p-0"
               >
                 Experiencia
@@ -94,18 +94,10 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="/contact/"
+                href="#Portfolio"
                 className="block py-2 px-3 text-primary rounded hover:bg-gray-100 tb:hover:bg-transparent tb:border-0 tb:hover:text-secondary tb:p-0"
               >
                 Portafolio
-              </a>
-            </li>
-            <li>
-              <a
-                href="/contact/"
-                className="block py-2 px-3 text-primary rounded hover:bg-gray-100 tb:hover:bg-transparent tb:border-0 tb:hover:text-secondary tb:p-0"
-              >
-                Contactame
               </a>
             </li>
           </ul>
