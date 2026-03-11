@@ -1,0 +1,200 @@
+---
+import Carousel from "./Carousel";
+import Image1 from "../img/raindsa/raindsa1.png";
+import Image2 from "../img/raindsa/raindsa2.jpg";
+import Image3 from "../img/raindsa/raindsa3.jpg";
+import Image4 from "../img/raindsa/raindsa4.jpg";
+import Image5 from "../img/raindsa/raindsa5.jpg";
+import Image6 from "../img/raindsa/raindsa6.jpg";
+import Image7 from "../img/raindsa/raindsa7.jpg";
+import Image8 from "../img/raindsa/raindsa8.jpg";
+import Cmi1 from "../img/cmi/cmi1.jpg";
+import Cmi2 from "../img/cmi/cmi2.jpg";
+import Cmi3 from "../img/cmi/cmi3.jpg";
+import Cmi4 from "../img/cmi/cmi4.jpg";
+import Cmi5 from "../img/cmi/cmi5.jpg";
+import Cmi6 from "../img/cmi/cmi6.jpg";
+import Cmi7 from "../img/cmi/cmi7.jpg";
+import Nexus1 from "../img/nexus/nexus1.jpg";
+import Nexus2 from "../img/nexus/nexus2.jpg";
+import Nexus3 from "../img/nexus/nexus3.jpg";
+import Adiem1 from "../img/adiem/adiem1.jpg";
+import Adiem2 from "../img/adiem/adiem2.jpg";
+import Adiem3 from "../img/adiem/adiem3.jpg";
+import Adiem4 from "../img/adiem/adiem4.jpg";
+import Softiux1 from "../img/softiux/softiux1.jpeg";
+import Softiux2 from "../img/softiux/softiux2.jpeg";
+import Softiux3 from "../img/softiux/softiux3.jpeg";
+import Softiux4 from "../img/softiux/softiux4.jpeg";
+import Softiux5 from "../img/softiux/softiux5.jpeg";
+import "@fontsource/roboto/600.css";
+import "@fontsource/roboto/900.css";
+import PortfolioComponent from "./PortfolioComponent.astro";
+import Fitpay1 from "../img/fitpay/fitpay1.jpg";
+import Fitpay2 from "../img/fitpay/fitpay-2.webp";
+import Fitpay3 from "../img/fitpay/fitpay3.webp";
+import Fitpay4 from "../img/fitpay/fitpay4.webp";
+import Fitpay5 from "../img/fitpay/fitpay5.webp";
+import Fitpay6 from "../img/fitpay/fitpay6.webp";
+import Fitpay7 from "../img/fitpay/fitpay7.webp";
+import Fitpay8 from "../img/fitpay/fitpay8.webp";
+import Fitpay9 from "../img/fitpay/fitpay9.webp";
+import Fitpay10 from "../img/fitpay/fitpay10.webp";
+import Nexuspay1 from "../img/nexuspay/nexuspay1.jpg";
+import Nexuspay2 from "../img/nexuspay/nexuspay2.webp";
+import Nexuspay3 from "../img/nexuspay/nexuspay3.webp";
+import Nexuspay4 from "../img/nexuspay/nexuspay4.jpg";
+import Nexuspay5 from "../img/nexuspay/nexuspay5.webp";
+import Nexuspay6 from "../img/nexuspay/nexuspay6.jpg";
+import Nexuspay7 from "../img/nexuspay/nexuspay7.jpg";
+import Nexuspay8 from "../img/nexuspay/nexuspay8.webp";
+import Nexuspaybook1 from "../img/nexuspayv2/nexuspaybook1.jpg";
+import Nexuspaybook2 from "../img/nexuspayv2/nexuspaybook2.webp";
+import Nexuspaybook3 from "../img/nexuspayv2/nexuspaybook3.webp";
+import Nexuspaybook4 from "../img/nexuspayv2/nexuspaybook4.webp";
+import Nexuspaybook5 from "../img/nexuspayv2/nexuspaybook5.webp";
+import Nexuspaybook6 from "../img/nexuspayv2/nexuspaybook6.webp";
+import Nexuspaybook7 from "../img/nexuspayv2/nexuspaybook7.jpg";
+---
+
+<section id="Portfolio" class="mb-10 mt-6">
+  <h3
+    class="text-center text-2xl text-azul font-black md:text-5xl md:mt-8 xl:mt-16"
+  >
+    Portafolio
+  </h3>
+  <div
+    class="mt-20 flex flex-col xl:flex-row flex-wrap items-center xl:items-start gap-y-16 xl:gap-x-16 justify-around 2xl:gap-x-20 2xl:mx-30"
+  >
+    <PortfolioComponent
+      title="NexusPay && Books"
+      description="Desarrollé un sistema web para la administración de colegiaturas y control de pagos del colegio de inglés en Puente de Ixtla. La plataforma permite gestionar los pagos de los alumnos y mantener un registro organizado de las colegiaturas.
+    También incluye un módulo para el control de pagos por compra de libros, que permite registrar estas ventas y conservar un historial de las transacciones realizadas por cada estudiante."
+    >
+      <Carousel
+        imgList={[
+          Nexuspaybook2,
+          Nexuspaybook3,
+          Nexuspaybook4,
+          Nexuspaybook5,
+          Nexuspaybook6,
+          Nexuspaybook7,
+          Nexuspaybook1
+        ]}
+        client:visible
+      />
+    </PortfolioComponent>
+    <PortfolioComponent
+      title="NexusPay"
+      description="Desarrollé un sistema web para la gestión y control de pagos de colegiaturas para el colegio de inglés CMI. La plataforma fue diseñada para facilitar la administración financiera y el seguimiento de los pagos de los estudiantes de manera organizada y segura."
+    >
+      <Carousel
+        imgList={[
+          Nexuspay2,
+          Nexuspay3,
+          Nexuspay4,
+          Nexuspay5,
+          Nexuspay6,
+          Nexuspay7,
+          Nexuspay8,
+          Nexuspay1
+        ]}
+        client:visible
+      />
+    </PortfolioComponent>
+    <PortfolioComponent
+      title="FitPay"
+      description="Desarrollé un sistema web para la gestión de membresías de gimnasio, creado para facilitar el control de usuarios, pagos y vigencia de suscripciones. El objetivo del proyecto fue reemplazar el control manual por una herramienta digital que permitiera administrar la información de forma más ordenada y eficiente."
+    >
+      <Carousel
+        imgList={[
+          Fitpay1,
+          Fitpay2,
+          Fitpay3,
+          Fitpay4,
+          Fitpay5,
+          Fitpay6,
+          Fitpay7,
+          Fitpay8,
+          Fitpay9,
+          Fitpay10
+        ]}
+        client:visible
+      />
+    </PortfolioComponent>
+    <PortfolioComponent
+      title="Raindsa"
+      description="Desarrollé el sitio web para Raindsa con el objetivo de mejorar su
+        presencia digital y facilitar la captación de nuevos clientes. El
+        proyecto fue construido con Astro, priorizando rendimiento, tiempos de
+        carga rápidos y una estructura optimizada para buscadores."
+      url="https://raindsa.com.mx/hules/"
+    >
+      <Carousel
+        imgList={[
+          Image1,
+          Image2,
+          Image3,
+          Image4,
+          Image5,
+          Image6,
+          Image7,
+          Image8
+        ]}
+        client:visible
+      />
+    </PortfolioComponent>
+
+    <PortfolioComponent
+      title="Certificaciones CMI"
+      description="Desarrollé el sitio web para CMI con el objetivo de atraer a un público
+        joven interesado en obtener certificaciones de inglés. El proyecto se
+        enfocó en presentar de forma clara y atractiva los programas,
+        certificaciones y beneficios que ofrece la institución."
+      url="https://certificaciones.cmi-elt.com/"
+    >
+      <Carousel
+        imgList={[Cmi1, Cmi2, Cmi3, Cmi4, Cmi5, Cmi6, Cmi7]}
+        client:visible
+      />
+    </PortfolioComponent>
+
+    <PortfolioComponent
+      title="Nexus Innovatix"
+      description="Desarrollé Nexus Innovatix como un proyecto personal enfocado en ofrecer
+        servicios de desarrollo web a pequeños negocios y emprendedores. El
+        objetivo principal fue crear una plataforma que me permitiera captar
+        clientes reales, aplicar mis conocimientos en proyectos profesionales y
+        al mismo tiempo generar experiencia práctica mientras estudiaba la
+        universidad."
+      url="https://www.nexusinnovatix.com/"
+    >
+      <Carousel imgList={[Nexus1, Nexus2, Nexus3]} client:visible />
+    </PortfolioComponent>
+    <PortfolioComponent
+      title="ADIEM"
+      description="Durante mis prácticas profesionales en ADIEM, participé en la administración y mejora de su sitio web institucional. Una de mis principales aportaciones fue el desarrollo del apartado de política de privacidad, así como mejoras en la interfaz de la página de inicio para hacerla más clara y accesible para los usuarios."
+      url="https://adiem.mx/privacidad/"
+    >
+      <Carousel imgList={[Adiem1, Adiem2, Adiem3, Adiem4]} client:visible />
+    </PortfolioComponent>
+
+    <PortfolioComponent
+      title="Softiux"
+      description="Durante mis prácticas profesionales en Softiux, participé en el desarrollo de una aplicación móvil enfocada en la exposición de servicios de negocios locales. El objetivo del proyecto fue crear una plataforma que permitiera a los usuarios descubrir establecimientos cercanos y conocer los servicios que ofrecen.
+    La aplicación fue pensada como una herramienta para fomentar el turismo y el consumo local, facilitando que visitantes y habitantes de la zona encuentren opciones de restaurantes, servicios y comercios de manera rápida desde su dispositivo móvil."
+    >
+      <Carousel
+        imgList={[Softiux1, Softiux2, Softiux3, Softiux4, Softiux5]}
+        client:visible
+      />
+    </PortfolioComponent>
+  </div>
+</section>
+<style>
+  h3,
+  h4,
+  p {
+    font-family: "Roboto Variable", sans-serif;
+  }
+</style>

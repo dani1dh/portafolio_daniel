@@ -1,0 +1,29 @@
+---
+const { title, description, url } = Astro.props;
+---
+
+<article
+  class="w-3/4 xl:w-2/5 2xl:w-[30%] xl:min-h-220 rounded-xl overflow-hidden bg-white shadow-2xl"
+>
+  <slot />
+  <div class="m-5 md:px-5 md:pb-3 md:mt-16">
+    <h4
+      class="mt-12 text-center md:text-3xl font-extrabold text-slate-600 text-xl"
+    >
+      {title}
+    </h4>
+    <p class="text-justify mt-2 text-sm md:text-xl">
+      {description}
+    </p>
+    {
+      url && (
+        <a href={url} target="_blank">
+          {" "}
+          <button class="bg-azul mt-4 md:px-8 md:py-4 px-4 py-2 rounded-2xl text-white font-semibold tracking-wider md:text-xl text-base cursor-pointer">
+            Ver Pagina
+          </button>
+        </a>
+      )
+    }
+  </div>
+</article>
