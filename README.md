@@ -1,46 +1,163 @@
-# Astro Starter Kit: Basics
+# 💼 DaniDev – Portafolio Profesional
 
-```sh
-npm create astro@latest -- --template basics
-```
+Portafolio personal desarrollado con **Astro** y **componentes de React**, diseñado para mostrar mi experiencia, habilidades y proyectos como desarrollador web.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+El objetivo de este proyecto es presentar de manera clara mi trayectoria profesional, tecnologías dominadas y algunos de los sistemas y sitios web que he desarrollado.
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+# 🚀 Tecnologías utilizadas
 
-```text
+Este portafolio fue construido utilizando tecnologías modernas enfocadas en rendimiento y escalabilidad.
+
+## Frontend
+
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- React
+- Astro
+- TailwindCSS
+- Bootstrap
+
+## Backend
+
+- PHP
+- Java
+- Spring Boot
+- Laravel
+
+## Base de datos
+
+- MySQL
+
+## Herramientas
+
+- Git
+- Control de versiones
+- Arquitectura modular de componentes
+
+---
+
+# 🧩 Características del proyecto
+
+- ⚡ **Rendimiento optimizado** gracias a Astro
+- 🧱 **Arquitectura basada en componentes**
+- ⚛️ Integración de **componentes interactivos con React**
+- 📱 **Diseño responsive**
+- 🎨 Interfaz moderna con **TailwindCSS**
+- 📂 Organización clara del código
+- 🖼️ Sección de **portafolio con proyectos reales**
+
+---
+
+# 📂 Estructura del proyecto
+
 /
 ├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
+│ └── assets
+│
+├── src/
+│ ├── components/ # Componentes reutilizables (Astro y React)
+│ ├── layouts/ # Layout principal del sitio
+│ ├── pages/ # Páginas del sitio
+│ ├── styles/ # Estilos globales
+│ └── assets/ # Imágenes y recursos
+│
 └── package.json
-```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+---
 
-## 🧞 Commands
+# 🧞 Comandos del proyecto
 
-All commands are run from the root of the project, from a terminal:
+Todos los comandos se ejecutan desde la raíz del proyecto.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Comando           | Acción                            |
+| ----------------- | --------------------------------- |
+| `npm install`     | Instala las dependencias          |
+| `npm run dev`     | Inicia el servidor de desarrollo  |
+| `npm run build`   | Genera la versión de producción   |
+| `npm run preview` | Previsualiza el build             |
+| `npm run astro`   | Ejecuta comandos del CLI de Astro |
 
-## 👀 Want to learn more?
+El servidor de desarrollo se ejecutará en:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+http://localhost:4321
+
+---
+
+# 🧠 Secciones del portafolio
+
+El sitio está dividido en varias secciones principales:
+
+## 👨‍💻 Presentación
+
+Introducción personal como desarrollador, incluyendo rol profesional y especialización.
+
+## 📖 Acerca de mí
+
+Breve descripción sobre mi trayectoria, experiencia y enfoque profesional.
+
+## 🧠 Habilidades
+
+Tecnologías organizadas en:
+
+- Frontend
+- Backend
+- Bases de datos
+- Control de versiones
+
+## 🎓 Experiencia y formación
+
+Incluye:
+
+- Formación académica
+- Certificaciones
+- Experiencia laboral
+- Proyectos freelance
+
+## 🗂️ Portafolio
+
+Muestra algunos de los proyectos desarrollados, entre ellos:
+
+- **NexusPay** – Sistema web para gestión de pagos
+- **NexusBuy** – Plataforma de control de compras
+- **FitPlay** – Plataforma web de servicios fitness
+- **Raindsa** – Sitio web empresarial
+- **Certificaciones CMI**
+- **Nexus Innovatix**
+- **ADIEM**
+- **Softlux**
+
+---
+
+# 📸 Objetivo del proyecto
+
+Este portafolio fue creado para:
+
+- Mostrar proyectos reales desarrollados
+- Presentar habilidades técnicas
+- Servir como carta de presentación profesional
+- Facilitar el contacto con posibles clientes o empresas
+
+---
+
+# 🌐 Autor
+
+**Daniel Hernández Abarca**
+
+Ingeniero en Informática | Desarrollador Web | Backend Developer
+
+Especializado en:
+
+- Desarrollo de sistemas web
+- Automatización de procesos empresariales
+- Desarrollo de APIs
+- Aplicaciones web modernas
+
+---
+
+# 📄 Licencia
+
+Este proyecto forma parte de mi portafolio personal.
